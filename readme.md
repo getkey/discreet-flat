@@ -19,5 +19,6 @@ $ stylus stylus/cinnamon.styl -o cinnamon/
 [12/11/2014] 1.0.1: Updated for Cinnamon 2.4. Few other fixes.
 [29/06/2015] 1.0.2: Updated for Cinnamon 2.6.
 [01/07/2015] 1.0.3: Taskbar fix.
-[04/12/2015] 1.1.0: Updated for Cinnamon 2.8. Improved the worpace switcher and the calendar.
+[04/12/2015] 1.1.0: Updated for Cinnamon 2.8. Improved the workspace switcher and the calendar.
 [09/11/2016] 1.1.1: Updated for Cinnamon 3.2.
+[26/12/2016] 1.1.2: Tiny fixes: panel color in edit mode, vertical panels, harmonizes colors.
