@@ -2,7 +2,13 @@
 
 Discreet Flat is a dark [Cinnamon](https://github.com/linuxmint/Cinnamon) theme trying to get the best out of flat design without removing usability.
 
-It is based on the [default Cinnamon theme](https://github.com/linuxmint/cinnamon-themes/blob/master/usr/share/themes/Linux%20Mint/cinnamon/cinnamon.css), which is (was?) sloppily written. I do not want to get rid of the sloppiness though because it make updating *Discreet flat* (whenever a new version of the default theme is released) harder.
+It was originally based on the [default Cinnamon theme](https://github.com/linuxmint/cinnamon-themes/blob/master/usr/share/themes/Linux%20Mint/cinnamon/cinnamon.css).
+
+## Build
+
+```
+$ stylus stylus/cinnamon.styl -o cinnamon/
+```
 
 ## Changelog
 
