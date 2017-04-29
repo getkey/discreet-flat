@@ -12,6 +12,11 @@ $ stylus stylus/cinnamon.styl -o cinnamon/
 
 ## Changelog
 
+### 1.1.3 - 29/04/2017
+
+- Change the window tab color when it is trying to alert the user
+
+
 ### 1.1.2 - 26/12/2016
 
 - Fixed the panel color in edit mode

@@ -2,6 +2,10 @@
 
 @require "../colors.styl"
 
+bg-grad($color)
+	background-gradient-start: lighten($color, 10%)
+	background-gradient-end: $color
+
 .window-list-box
 	spacing: 2px
 	padding-left: 10px
@@ -9,8 +13,7 @@
 
 	.window-list-item-box
 		background-gradient-direction: horizontal
-		background-gradient-start: #363636
-		background-gradient-end: $dark
+		bg-grad($dark)
 		border-radius: 0 0 0 5px
 		border: 0px solid #484848
 		border-left-width: 1px
@@ -18,21 +21,18 @@
 		color: $text
 
 		&:active, &:checked, &:focus
-			background-gradient-start: #5a5a5a
-			background-gradient-end: #505050
+			bg-grad(#505050)
 			box-shadow: 0 0 3px #141414 inset
 			border: 0 solid black
 			padding-left: 1px
 			border-radius: 0 0 3px 3px
 
-		&:active:hover, &:checked:hover, &:focus:hover
-			background-gradient-start: #6a6a6a
-			background-gradient-end: #606060
-			border-bottom: none
+			&:hover
+				bg-grad(#606060)
+				border-bottom: none
 
 		&:hover
-			background-gradient-start: #404040
-			background-gradient-end: #303030
+			bg-grad(#303030)
 			border-radius: 0 0 0 3px
 			color: #e8e8e8
 			border-color: #4b4b4b
@@ -47,5 +47,10 @@
 	width: 15em
 	min-width: 5px
 
-.window-list-item-demands-attention
-	background: $accent
+.panel-top, .panel-bottom, .panel-left, .panel-right
+	.window-list-item-demands-attention
+		bg-grad($accent-light)
+		color: #dark
+
+		&:hover
+			bg-grad($accent)
