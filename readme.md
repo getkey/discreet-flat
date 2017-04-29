@@ -1,6 +1,6 @@
 # Discreet Flat
 
-Discreet Flat is a dark [Cinnamon](https://github.com/linuxmint/Cinnamon) theme trying to get the best out of flat design without removing usability.
+Discreet Flat is a dark [Cinnamon](https://github.com/linuxmint/Cinnamon) theme. It aims to get the best out of flat design without removing usability.
 
 It was originally based on the [default Cinnamon theme](https://github.com/linuxmint/cinnamon-themes/blob/master/usr/share/themes/Linux%20Mint/cinnamon/cinnamon.css).
 
@@ -15,6 +15,7 @@ $ stylus stylus/cinnamon.styl -o cinnamon/
 ### 1.1.3 - 29/04/2017
 
 - Change the window tab color when it is trying to alert the user
+- Updated for Cinnamon 3.4
 
 
 ### 1.1.2 - 26/12/2016
